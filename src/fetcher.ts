@@ -10,9 +10,12 @@ import { ChainId } from './constants'
 import { Token } from './entities/token'
 
 let TOKEN_DECIMALS_CACHE: { [chainId: number]: { [address: string]: number } } = {
-  [ChainId.MUMBAI]: {
-    '0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A': 9 // DGD
-  }
+  [ChainId.XINFIN]: {
+    '0x8A3cc832Bb6B255622E92dc9d4611F2A94d200DA': 18, // WXDC
+  },
+  [ChainId.APOTHEM]: {
+    '0xc039850F937C623024DA66D6dF370022E6F16e30': 18, // WXDC
+  },
 }
 
 /**
