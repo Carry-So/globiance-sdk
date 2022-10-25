@@ -1,18 +1,19 @@
 {
-  "name": "quickswap-sdk",
+  "name": "globiance-sdk",
   "license": "MIT",
-  "version": "3.0.8",
-  "description": "🛠 An SDK for building applications on top of Quickswap.",
+  "version": "1.0.0-beta",
+  "description": "An SDK for building applications on top of Globiance.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/sameepsi/quickswap-sdk.git",
+  "repository": "https://github.com/Carry-So/globiance-sdk.git",
   "keywords": [
-    "quickswap",
-    "matic",
-    "ethereum"
+    "globiance",
+    "xdc",
+    "xinfin",
+    "apothem"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
